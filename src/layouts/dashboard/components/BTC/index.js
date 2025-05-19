@@ -27,6 +27,9 @@ import wavesWhite from "assets/images/shapes/waves-white.svg";
 import rockethWite from "assets/images/illustrations/rocket-white.png";
 import btc from "assets/images/illustrations/BTC_1.jpg"
 
+import { Link } from "react-router-dom";
+
+
 function BTC() {
   return (
     <Card>
@@ -47,7 +50,7 @@ function BTC() {
                   Bitcoin is a decentralized cryptocurrency originally described in a 2008 whitepaper by a person, or group of people, using the alias Satoshi Nakamoto. It was launched soon after, in January 2009....
                 </SoftTypography>
               </SoftBox>
-              <SoftTypography
+              {/* <SoftTypography
                 component="a"
                 href="#"
                 variant="button"
@@ -73,7 +76,33 @@ function BTC() {
               >
                 Read More
                 <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
-              </SoftTypography>
+              </SoftTypography> */}
+              <Link to="/btc/details" style={{ textDecoration: "none" }}>
+                <SoftTypography
+                  component="span"
+                  variant="button"
+                  color="text"
+                  fontWeight="medium"
+                  sx={{
+                    mt: "auto",
+                    mr: "auto",
+                    display: "inline-flex",
+                    alignItems: "center",
+                    cursor: "pointer",
+                    "& .material-icons-round": {
+                      fontSize: "1.125rem",
+                      transform: `translate(2px, -0.5px)`,
+                      transition: "transform 0.2s cubic-bezier(0.34,1.61,0.7,1.3)",
+                    },
+                    "&:hover .material-icons-round, &:focus .material-icons-round": {
+                      transform: `translate(6px, -0.5px)`,
+                    },
+                  }}
+                >
+                  Read More
+                  <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
+                </SoftTypography>
+              </Link>
             </SoftBox>
           </Grid>
           <Grid item xs={12} lg={5} sx={{ position: "relative", ml: "auto" }}>

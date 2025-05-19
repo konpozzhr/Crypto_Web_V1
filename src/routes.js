@@ -54,6 +54,7 @@ import SpaceShip from "examples/Icons/SpaceShip";
 import CustomerSupport from "examples/Icons/CustomerSupport";
 import CreditCard from "examples/Icons/CreditCard";
 import Cube from "examples/Icons/Cube";
+import BTCDetails from "layouts/dashboard/components/BTC/BTC_Details";
 
 const routes = [
   {
@@ -65,6 +66,16 @@ const routes = [
     component: <Dashboard />,
     noCollapse: true,
   },
+  {
+    // type: "collapse",
+    // name: "BTC Details",
+    key: "btc-details",
+    route: "/btc/details",
+    icon: <Cube size="12px" />, // Or use a more suitable icon
+    component: <BTCDetails />,
+    noCollapse: true,
+  },
+
   {
     type: "collapse",
     name: "Tables",
