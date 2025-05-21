@@ -12,8 +12,8 @@ import SoftTypography from "components/SoftTypography";
 
 // Images
 import wavesWhite from "assets/images/shapes/waves-white.svg";
-import btc from "assets/images/illustrations/BTC_1.jpg";
-import btc_price from "assets/images/illustrations/BTC_Price.png";
+import pic from "assets/images/illustrations/USDT.jpg";
+import pic_news from "assets/images/illustrations/USDT_news.jpg";
 
 function USDTDetails() {
   return (
@@ -36,7 +36,7 @@ function USDTDetails() {
                   />
                   <SoftBox
                     component="img"
-                    src={btc}
+                    src={pic}
                     alt="BTC"
                     width="100%"
                     borderRadius="lg"
@@ -67,10 +67,10 @@ function USDTDetails() {
                     position="relative"
                     zIndex={1}
                   /> */}
-                  <a href="https://cryptonewsland.com/metaplanet-expands-bitcoin-holdings-to-7800-t/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://coinmarketcap.com/community/articles/682c448a35531078bddece2d/" target="_blank" rel="noopener noreferrer">
                     <SoftBox
                         component="img"
-                        src={btc_price}
+                        src={pic_news}
                         alt="BTC"
                         width="100%"
                         borderRadius="lg"
@@ -82,120 +82,162 @@ function USDTDetails() {
               </Grid>
               <Grid item xs={12} md={12}>
                 <SoftTypography variant="h3" fontWeight="bold" mb={2}>
-                  What is Bitcoin (BTC)?
+                  What Is Tether (USDT)?
                 </SoftTypography>
                 <SoftTypography variant="h4" color="success" mb={2}>
-                  Current Price: $103,851.71
+                  Current Price: $1.00
                 </SoftTypography>
                 <SoftTypography variant="body1" color="text" mb={2}>
-                  Bitcoin is a decentralized cryptocurrency originally described in a 2008 whitepaper by a person, or group of people, using the alias Satoshi Nakamoto. It was launched soon after, in January 2009.
-                </SoftTypography>
-                <SoftTypography variant="body1" color="text" mb={2}>
-                  Bitcoin is a peer-to-peer online currency, meaning that all transactions happen directly between equal, independent network participants, without the need for any intermediary to permit or facilitate them. Bitcoin was created, according to Nakamoto’s own words, to allow “online payments to be sent directly from one party to another without going through a financial institution.”
-                </SoftTypography>
-                <SoftTypography variant="body1" color="text" mb={2}>
-                  Some concepts for a similar type of a decentralized electronic currency precede BTC, but Bitcoin holds the distinction of being the first-ever cryptocurrency to come into actual use.
+                  Launched in 2014, Tether is a blockchain-enabled platform designed to facilitate the use of fiat currencies in a digital manner. Tether works to disrupt the conventional financial system via a more modern approach to money. Tether has made headway by giving customers the ability to transact with traditional currencies across the blockchain, without the inherent volatility and complexity typically associated with a digital currency. As the first blockchain-enabled platform to facilitate the digital use of traditional currencies (a familiar, stable accounting unit), Tether has democratised cross-border transactions across the blockchain.
                 </SoftTypography>
             
                 <SoftTypography variant="h4" color="success" mb={2}>
-                  Who Are the Founders of Bitcoin?
+                  What is the Tether USD₮ token?
                 </SoftTypography>
                 <SoftTypography variant="body1" color="text" mb={2}>
-                  Bitcoin’s original inventor is known under a pseudonym, Satoshi Nakamoto. As of 2021, the true identity of the person — or organization — that is behind the alias remains unknown.
-                </SoftTypography>
-                <SoftTypography variant="body1" color="text" mb={2}>
-                  On October 31, 2008, Nakamoto published Bitcoin’s whitepaper, which described in detail how a peer-to-peer, online currency could be implemented. They proposed to use a decentralized ledger of transactions packaged in batches (called “blocks”) and secured by cryptographic algorithms — the whole system would later be dubbed “blockchain.”
-                </SoftTypography>
-                <SoftTypography variant="body1" color="text" mb={2}>
-                  Just two months later, on January 3, 2009, Nakamoto mined the first block on the Bitcoin network, known as the genesis block, thus launching the world’s first cryptocurrency. Bitcoin price was $0 when first introduced, and most Bitcoins were obtained via mining, which only required moderately powerful devices (e.g. PCs) and mining software. The first known Bitcoin commercial transaction occurred on May 22, 2010, when programmer Laszlo Hanyecz traded 10,000 Bitcoins for two pizzas. At Bitcoin price today in mid-September 2021, those pizzas would be worth an astonishing $478 million. This event is now known as “Bitcoin Pizza Day.” In July 2010, Bitcoin first started trading, with the Bitcoin price ranging from $0.0008 to $0.08 at that time.
-                </SoftTypography>
-                <SoftTypography variant="body1" color="text" mb={2}>
-                  However, while Nakamoto was the original inventor of Bitcoin, as well as the author of its very first implementation, he handed the network alert key and control of the code repository to Gavin Andresen, who later became lead developer at the Bitcoin Foundation. Over the years a large number of people have contributed to improving the cryptocurrency’s software by patching vulnerabilities and adding new features.
-                    Bitcoin’s source code repository on GitHub lists more than 750 contributors, with some of the key ones being Wladimir J. van der Laan, Marco Falke, Pieter Wuille, Gavin Andresen, Jonas Schnelli and others.
+                  USD₮ is a digital dollar, powered by blockchain technology, a stablecoin that is pegged 1:1 to the USD.
+                  USD₮ provides individuals and organizations with a robust and decentralized method of exchanging value while using a familiar accounting unit.
                 </SoftTypography>
                 
                 <SoftTypography variant="h4" color="success" mb={2}>
-                  What Makes Bitcoin Unique?
+                  How do Tether tokens work?
                 </SoftTypography>
                 <SoftTypography variant="body1" color="text" mb={2}>
-                  Bitcoin’s most unique advantage comes from the fact that it was the very first cryptocurrency to appear on the market.
-                </SoftTypography>
-                <SoftTypography variant="body1" color="text" mb={2}>
-                  It has managed to create a global community and give birth to an entirely new industry of millions of enthusiasts who create, invest in, trade and use Bitcoin and other cryptocurrencies in their everyday lives. The emergence of the first cryptocurrency has created a conceptual and technological basis that subsequently inspired the development of thousands of competing projects.
-                </SoftTypography>
-                <SoftTypography variant="body1" color="text" mb={2}>
-                  The entire cryptocurrency market — now worth more than $2 trillion — is based on the idea realized by Bitcoin: money that can be sent and received by anyone, anywhere in the world without reliance on trusted intermediaries, such as banks and financial services companies.
-                </SoftTypography>
-                <SoftTypography variant="body1" color="text" mb={2}>
-                  Thanks to its pioneering nature, BTC remains at the top of this energetic market after over a decade of existence. Even after Bitcoin has lost its undisputed dominance, it remains the largest cryptocurrency, with a market capitalization that surpassed the $1 trillion mark in 2021, after Bitcoin price hit an all-time high of $64,863.10 on April 14, 2021. This is owing in large part to growing institutional interest in Bitcoin, and the ubiquitousness of platforms that provide use-cases for BTC: wallets, exchanges, payment services, online games and more.
+                  Tether tokens exist as digital tokens built on several leading blockchains, including Algorand, Avalanche, Bitcoin Cashs Simple Ledger Protocol (SLP), Ethereum, EOS, Liquid Network, Omni, Polygon, Tezos, Tron, Solana, Kava and Statemine. These transport protocols consist of open source software that interface with blockchains to allow for the issuance and redemption of Tether tokens. Every Tether token is 100% backed by Tethers reserves. As a fully transparent company, Tether publishes a record of the current reserve assets.
                 </SoftTypography>
 
                 <SoftTypography variant="h4" color="success" mb={2}>
-                  Bitcoin Whitepaper
+                  Who Are The Founders Of Tether?
+                </SoftTypography>
+                <SoftTypography variant="body1" color="text" mb={2}>
+                  USDT — or as it was known at the time, Realcoin — was launched in 2014 by Brock Pierce, Reeve Collins and Craig Sellars.
+                </SoftTypography>
+                <SoftTypography variant="body1" color="text" mb={2}>
+                  Brock Pierce is a well-known entrepreneur who has co-founded a number of high-profile projects in the crypto and entertainment industries. In 2013, he co-founded a venture capital firm Blockchain Capital, which by 2017 had raised over $80 million in funding. In 2014, Pierce became the director of the Bitcoin Foundation, a nonprofit established to help improve and promote Bitcoin. Pierce has also co-founded Block.one, the company behind EOS, one of the largest cryptocurrencies on the market.
+                </SoftTypography>
+                <SoftTypography variant="body1" color="text" mb={2}>
+                  Reeve Collins was the CEO of Tether for the first two years of its existence. Prior to that, he had co-founded several successful companies, such as the online ad network Traffic Marketplace, entertainment studio RedLever and gambling website Pala Interactive. As of 2020, Collins is heading SmarMedia Technologies, a marketing and advertising tech company.
+                </SoftTypography>
+                <SoftTypography variant="body1" color="text" mb={2}>
+                  Other than working on Tether, Craig Sellars has been a member of the Omni Foundation for over six years. Its Omni Protocol allows users to create and trade smart-contract based properties and currencies on top of Bitcoin’s blockchain. Sellars has also worked in several other cryptocurrency companies and organizations, such as Bitfinex, Factom, Synereo and the MaidSafe Foundation.
                 </SoftTypography>
 
-                <SoftTypography variant="h5" color="warning" mb={2}>
+
+
+                <SoftTypography variant="h4" color="success" mb={2}>
+                  What Makes Tether Unique?
+                </SoftTypography>
+                <SoftTypography variant="body1" color="text" mb={2}>
+                  USDT unique feature is the fact that its value is guaranteed by Tether to remain pegged to the U.S. dollar. According to Tether, whenever it issues new USDT tokens, it allocates the same amount of USD to its reserves, thus ensuring that USDT is fully backed by cash and cash equivalents.
+                </SoftTypography>
+                <SoftTypography variant="body1" color="text" mb={2}>
+                  The famously high volatility of the crypto markets means that cryptocurrencies can rise or fall by 10-20% within a single day, making them unreliable as a store of value. USDT, on the other hand, is protected from these fluctuations.
+                </SoftTypography>
+                <SoftTypography variant="body1" color="text" mb={2}>
+                  This property makes USDT a safe haven for crypto investors: during periods of high volatility, they can park their portfolios in Tether without having to completely cash out into USD. In addition, USDT provides a simple way to transact a U.S. dollar equivalent between regions, countries and even continents via blockchain — without having to rely on a slow and expensive intermediary, like a bank or a financial services provider.
+                </SoftTypography>
+                <SoftTypography variant="body1" color="text" mb={2}>
+                  However, over the years, there have been a number of controversies regarding the validity of Tether’s claims about their USD reserves, at times disrupting USDT’s price, which went down as low as $0.88 at one point in its history. Many have raised concerns about the fact that Tether’s reserves have never been fully audited by an independent third party.
+                </SoftTypography>
+
+
+                <SoftTypography variant="h4" color="success" mb={2}>
+                  Is Tether Entering the Social Media Market?
+                </SoftTypography>
+                <SoftTypography variant="body1" color="text" mb={2}>
+                  In July 2022, Tether, alongside peer-to-peer data network Hypercore and its sister company Bitfinex, collaborated on a social media app called Keet.
+                </SoftTypography>
+                <SoftTypography variant="body1" color="text" mb={2}>
+                  The fully encrypted video chat application is currently a desktop-only app for now, but there are plans to extend the product to mobile devices soon.
+                </SoftTypography>
+                <SoftTypography variant="body1" color="text" mb={2}>
+                  Keet app is the first app to be deployed on Holepunch, a platform that allows developers to build Web3 apps. And although Keet is still a closed-source project, the companies plan to make it open-source by the end of the year.
+                </SoftTypography>
+                <SoftTypography variant="body1" color="text" mb={2}>
+                  Commenting on why Tether was launching a chat app, Ardoino, who doubles as the chief strategy officer at Holepunch, simply said “freedom of speech.”
+                </SoftTypography>
+
+
+                <SoftTypography variant="h4" color="success" mb={2}>
+                  How Many Tether (USDT) Coins Are There In Circulation?
+                </SoftTypography>
+                <SoftTypography variant="body1" color="text" mb={2}>
+                  There is no hard-coded limit on the total supply of USDT — given the fact that it belongs to a private company, theoretically, its issuance is limited only by Tether’s own policies. However, because Tether claims that every single USDT is supposed to be backed by one U.S. dollar, the amount of tokens is limited by the company’s actual cash reserves.
+                </SoftTypography>
+                <SoftTypography variant="body1" color="text" mb={2}>
+                  Moreover, Tether does not disclose its issuance schedules ahead of time. Instead, they provide daily transparency reports, listing the total amount of their asset reserves and liabilities, the latter corresponding to the amount of USDT in circulation.
+                </SoftTypography>
+                <SoftTypography variant="body1" color="text" mb={2}>
+                  As of September 2020, there are over 14.4 billion USDT tokens in circulation, which are backed by $14.6 billion in assets, according to Tether.
+                </SoftTypography>
+                
+                
+                <SoftTypography variant="h4" color="success" mb={2}>
+                  How Is the Tether Network Secured?
+                </SoftTypography>
+                <SoftTypography variant="body1" color="text" mb={2}>
+                  USDT does not have its own blockchain — instead, it operates as a second-layer token on top of other cryptocurrencies’ blockchains: Bitcoin, Ethereum, EOS, Tron, Algorand, Bitcoin Cash and OMG, and is secured by their respective hashing algorithms.
+                </SoftTypography>
+
+
+
+                <SoftTypography variant="h5" color="warning" mb={2} fontWeight="bold" sx={{ fontFamily: 'Comic Sans MS, cursive', textShadow: '1px 1px 2px rgba(0,0,0,0.1)' }} >
                   Overview
                 </SoftTypography>
                 <SoftTypography variant="body1" color="text" mb={2}>
-                    Bitcoin is a groundbreaking digital payment system that lets people send money directly to each other without needing banks or middlemen.
-                    Think of it like digital cash that works over the internet, but with special security features that prevent people from copying or double-spending the money.
-                    It solves a major problem in digital payments by creating a secure, decentralized way to track transactions that everyone can trust.
-                    Since its launch in 2009, Bitcoin has grown into a global financial phenomenon, with millions of users and widespread institutional adoption.
+                    Tether is a digital currency that aims to make digital payments more stable by creating tokens that are designed to maintain a value of one US dollar.
+                    Think of it like having digital dollar bills that you can send anywhere in the world quickly and cheaply using blockchain technology.
+                    While originally built on Bitcoins blockchain, Tether now operates across multiple blockchain platforms
                 </SoftTypography>
 
-                <SoftTypography variant="h5" color="warning" mb={2}>
+                <SoftTypography variant="h5" color="warning" mb={2} fontWeight="bold" sx={{ fontFamily: 'Comic Sans MS, cursive', textShadow: '1px 1px 2px rgba(0,0,0,0.1)' }} >
                   Technology
                 </SoftTypography>
                 <SoftTypography variant="body1" color="text" mb={2}>
-                    Imagine a giant digital ledger that everyone can see but no one person controls  that is basically what Bitcoins blockchain is.
-                    When you send Bitcoin to someone, that transaction gets broadcast to a network of computers around the world.
-                    These computers, called miners, work together to verify transactions and group them into blocks - kind of like pages in that giant ledger.
-                    To make sure everyone agrees on which transactions happened when, Bitcoin uses something called proof-of-work.
-                    Think of it like a really hard math puzzle that computers have to solve.
-                    The first computer to solve the puzzle gets to add the next block of transactions to the chain and receives some new Bitcoin as a reward.
-                    This system makes it extremely difficult for anyone to cheat or change past transactions because they would have to redo all those puzzles and convince everyone to accept their version of events.
-                    The beauty of Bitcoins design is that it doesnt require trust in any single person or organization.
-                    Instead, it relies on mathematics, cryptography, and the fact that it is more profitable for participants to play by the rules than to try to cheat the system.
+                    Tether works by combining traditional banking with blockchain technology.
+                    For every Tether token created, one US dollar (or equivalent assets) is held in reserve.
+                    While originally created on the Bitcoin blockchain through the Omni Layer protocol, Tether now operates across multiple blockchain platforms including Ethereum, Tron, and Solana.
+                    This multi-chain approach provides users with more flexibility and lower transaction costs while maintaining security benefits.
+                    When users want Tether tokens, they send dollars to Tethers bank account, and Tether creates the equivalent tokens on their chosen blockchain.
+                    When converting back to dollars, Tether destroys those tokens and returns the corresponding dollars from reserves.
                 </SoftTypography>
 
-                <SoftTypography variant="h5" color="warning" mb={2}>
+                <SoftTypography variant="h5" color="warning" mb={2} fontWeight="bold" sx={{ fontFamily: 'Comic Sans MS, cursive', textShadow: '1px 1px 2px rgba(0,0,0,0.1)' }} >
                   Tokenomics
                 </SoftTypography>
                 <SoftTypography variant="body1" color="text" mb={2}>
-                    Bitcoins economic system is designed to work like digital gold.
-                    Just like there is a limited amount of gold in the world, there will only ever be 21 million Bitcoin.
-                    New Bitcoin are created through mining - when computers solve those complex puzzles to verify transactions, they are rewarded with newly created Bitcoin.
-                    This reward started at 50 Bitcoin per block and gets cut in half about every four years in what is called the halving.
-                    Currently, miners receive 3.125 Bitcoin for each block they add to the chain, with the next halving expected in 2028, which will reduce the reward to 1.5625 Bitcoin.
-                    This decreasing supply schedule makes Bitcoin naturally resistant to inflation, unlike traditional money that can be printed by governments at will.
-                    When people make Bitcoin transactions, they can also include small fees that go to the miners.
-                    These fees help incentivize miners to keep processing transactions even as the block rewards get smaller over time.
-                    As of early 2025, almost 20 million Bitcoin have already been mined, with the final Bitcoin expected to be mined around the year 2140.
+                    Each Tether token (USDT) is designed to maintain a value of one US dollar through their reserve system.
+                    Users deposit real US dollars to receive an equivalent amount of tokens.
+                    When converting back to dollars, tokens are destroyed and real dollars are returned.
+                    Tethers reserves include cash and cash equivalents, secured loans, corporate bonds, and other investments, with regular attestations provided.
                </SoftTypography>
 
-               <SoftTypography variant="h5" color="warning" mb={2}>
+               <SoftTypography variant="h5" color="warning" mb={2} fontWeight="bold" sx={{ fontFamily: 'Comic Sans MS, cursive', textShadow: '1px 1px 2px rgba(0,0,0,0.1)' }} >
                   Roadmap
                 </SoftTypography>
                 <SoftTypography variant="body1" color="text" mb={2}>
-                    Bitcoins development follows a careful, conservative approach focused on maintaining security and stability.
-                    Unlike many other crypto projects, Bitcoin doesnt have a formal roadmap or a single team controlling its development.
-                    Instead, improvements are proposed, discussed, and implemented through a community-driven process.
-                    Major updates require broad consensus among users, miners, and developers to be adopted.
-                    Current development efforts focus on improving Bitcoins scalability through solutions like the Lightning Network, which allows for faster and cheaper transactions, and enhancing privacy and security features.
-                    Recent developments include Taproot, a major upgrade implemented in 2021 that improves privacy and smart contract functionality.
-                    The community is also working on various Layer 2 solutions and sidechains to enhance Bitcoins utility while maintaining its core principles of security and decentralization.
+                    Tether plans to enhance security through smart contracts implementation.
+                    They are expanding transparency initiatives with regular third-party attestations of reserves.
+                    The company is developing new stablecoins pegged to different currencies.
+                    Focus is placed on improving cross-blockchain efficiency.
                </SoftTypography>
 
-               <SoftTypography variant="h5" color="warning" mb={2}>
+               <SoftTypography variant="h5" color="warning" mb={2} fontWeight="bold" sx={{ fontFamily: 'Comic Sans MS, cursive', textShadow: '1px 1px 2px rgba(0,0,0,0.1)' }} >
                   Team
                 </SoftTypography>
                 <SoftTypography variant="body1" color="text" mb={2}>
-                    Bitcoin was created by someone using the pseudonym Satoshi Nakamoto, who published the Bitcoin whitepaper in 2008 and launched the network in 2009.
-                    Satoshis true identity remains unknown, and they stepped away from the project in 2010.
-                    Today, Bitcoin is maintained by a global community of developers who contribute to its open-source code.
-                    No single person or organization controls Bitcoin - its development and operation are truly decentralized, which is a key feature that makes it resistant to control or manipulation by any single entity.
-                    The development community has grown significantly since Bitcoins inception, with numerous contributors working on various aspects of the protocol, from core development to Layer 2 solutions.
+                    Tether is operated by iFinex Inc., which also runs the cryptocurrency exchange Bitfinex.
+                    Based in the British Virgin Islands, they maintain proper legal structures and follow strict financial regulations.
+                    The team works with regulators to ensure compliance and regularly publishes reserve attestations.
+                </SoftTypography>
+                <SoftTypography 
+                  variant="h5" 
+                  color="warning" 
+                  mb={2} 
+                  fontWeight="bold" 
+                  sx={{ fontFamily: 'Comic Sans MS, cursive', textShadow: '1px 1px 2px rgba(0,0,0,0.1)' }}
+                >
+                  😊 Welcome! Let’s make this fun and easy.
                 </SoftTypography>
 
 

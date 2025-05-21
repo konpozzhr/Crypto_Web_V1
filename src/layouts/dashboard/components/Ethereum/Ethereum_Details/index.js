@@ -295,7 +295,7 @@ function ETHDetails() {
                   Ethereum Whitepaper
                 </SoftTypography>
 
-                <SoftTypography variant="h5" color="warning" mb={2}>
+                <SoftTypography variant="h5" color="warning" mb={2} fontWeight="bold" sx={{ fontFamily: 'Comic Sans MS, cursive', textShadow: '1px 1px 2px rgba(0,0,0,0.1)' }} >
                   Overview
                 </SoftTypography>
                 <SoftTypography variant="body1" color="text" mb={2}>
@@ -306,7 +306,7 @@ function ETHDetails() {
                     This revolutionary technology has transformed how we think about digital ownership and online transactions.
                 </SoftTypography>
 
-                <SoftTypography variant="h5" color="warning" mb={2}>
+                <SoftTypography variant="h5" color="warning" mb={2} fontWeight="bold" sx={{ fontFamily: 'Comic Sans MS, cursive', textShadow: '1px 1px 2px rgba(0,0,0,0.1)' }} >
                   Technology
                 </SoftTypography>
                 <SoftTypography variant="body1" color="text" mb={2}>
@@ -322,7 +322,7 @@ function ETHDetails() {
                     This change has made Ethereum much more environmentally friendly while maintaining its security and reliability.
                 </SoftTypography>
 
-                <SoftTypography variant="h5" color="warning" mb={2}>
+                <SoftTypography variant="h5" color="warning" mb={2} fontWeight="bold" sx={{ fontFamily: 'Comic Sans MS, cursive', textShadow: '1px 1px 2px rgba(0,0,0,0.1)' }} >
                   Tokenomics
                 </SoftTypography>
                 <SoftTypography variant="body1" color="text" mb={2}>
@@ -339,7 +339,7 @@ function ETHDetails() {
                     This system ensures that those who help secure the network are rewarded while keeping inflation in check.
                </SoftTypography>
 
-               <SoftTypography variant="h5" color="warning" mb={2}>
+               <SoftTypography variant="h5" color="warning" mb={2} fontWeight="bold" sx={{ fontFamily: 'Comic Sans MS, cursive', textShadow: '1px 1px 2px rgba(0,0,0,0.1)' }} >
                   Roadmap
                 </SoftTypography>
                 <SoftTypography variant="body1" color="text" mb={2}>
@@ -355,7 +355,7 @@ function ETHDetails() {
                     The development team is constantly working on new ways to improve the networks speed, security, and usability.
                </SoftTypography>
 
-               <SoftTypography variant="h5" color="warning" mb={2}>
+               <SoftTypography variant="h5" color="warning" mb={2} fontWeight="bold" sx={{ fontFamily: 'Comic Sans MS, cursive', textShadow: '1px 1px 2px rgba(0,0,0,0.1)' }} >
                   Team
                 </SoftTypography>
                 <SoftTypography variant="body1" color="text" mb={2}>
@@ -369,7 +369,15 @@ function ETHDetails() {
                     This decentralized approach to development helps ensure that no single group has too much control over the networks future.
                 </SoftTypography>
 
-
+                <SoftTypography 
+                  variant="h5" 
+                  color="warning" 
+                  mb={2} 
+                  fontWeight="bold" 
+                  sx={{ fontFamily: 'Comic Sans MS, cursive', textShadow: '1px 1px 2px rgba(0,0,0,0.1)' }}
+                >
+                  😊 Welcome! Let’s make this fun and easy.
+                </SoftTypography>
             
                 <Link to="/dashboard" style={{ textDecoration: "none" }}>
                   <SoftTypography

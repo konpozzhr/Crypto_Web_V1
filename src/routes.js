@@ -57,6 +57,7 @@ import Cube from "examples/Icons/Cube";
 import BTCDetails from "layouts/dashboard/components/BTC/BTC_Details";
 import ETHDetails from "layouts/dashboard/components/Ethereum/Ethereum_Details";
 import USDTDetails from "layouts/dashboard/components/USDT/USDT_Details";
+import XRPDetails from "layouts/dashboard/components/XRP/XRP_Details";
 
 const routes = [
   {
@@ -93,6 +94,15 @@ const routes = [
     route: "/usdt/details",
     icon: <Cube size="12px" />, // Or use a more suitable icon
     component: <USDTDetails />,
+    noCollapse: true,
+  },
+  {
+    // type: "collapse",
+    // name: "BTC Details",
+    key: "xrp-details",
+    route: "/xrp/details",
+    icon: <Cube size="12px" />, // Or use a more suitable icon
+    component: <XRPDetails />,
     noCollapse: true,
   },
 

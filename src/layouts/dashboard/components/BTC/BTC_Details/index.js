@@ -134,7 +134,7 @@ function BTCDetails() {
                   Bitcoin Whitepaper
                 </SoftTypography>
 
-                <SoftTypography variant="h5" color="warning" mb={2}>
+                <SoftTypography variant="h5" color="warning" mb={2} fontWeight="bold" sx={{ fontFamily: 'Comic Sans MS, cursive', textShadow: '1px 1px 2px rgba(0,0,0,0.1)' }} >
                   Overview
                 </SoftTypography>
                 <SoftTypography variant="body1" color="text" mb={2}>
@@ -144,7 +144,7 @@ function BTCDetails() {
                     Since its launch in 2009, Bitcoin has grown into a global financial phenomenon, with millions of users and widespread institutional adoption.
                 </SoftTypography>
 
-                <SoftTypography variant="h5" color="warning" mb={2}>
+                <SoftTypography variant="h5" color="warning" mb={2} fontWeight="bold" sx={{ fontFamily: 'Comic Sans MS, cursive', textShadow: '1px 1px 2px rgba(0,0,0,0.1)' }} >
                   Technology
                 </SoftTypography>
                 <SoftTypography variant="body1" color="text" mb={2}>
@@ -159,7 +159,7 @@ function BTCDetails() {
                     Instead, it relies on mathematics, cryptography, and the fact that it is more profitable for participants to play by the rules than to try to cheat the system.
                 </SoftTypography>
 
-                <SoftTypography variant="h5" color="warning" mb={2}>
+                <SoftTypography variant="h5" color="warning" mb={2} fontWeight="bold" sx={{ fontFamily: 'Comic Sans MS, cursive', textShadow: '1px 1px 2px rgba(0,0,0,0.1)' }} >
                   Tokenomics
                 </SoftTypography>
                 <SoftTypography variant="body1" color="text" mb={2}>
@@ -174,7 +174,7 @@ function BTCDetails() {
                     As of early 2025, almost 20 million Bitcoin have already been mined, with the final Bitcoin expected to be mined around the year 2140.
                </SoftTypography>
 
-               <SoftTypography variant="h5" color="warning" mb={2}>
+               <SoftTypography variant="h5" color="warning" mb={2} fontWeight="bold" sx={{ fontFamily: 'Comic Sans MS, cursive', textShadow: '1px 1px 2px rgba(0,0,0,0.1)' }} >
                   Roadmap
                 </SoftTypography>
                 <SoftTypography variant="body1" color="text" mb={2}>
@@ -187,7 +187,7 @@ function BTCDetails() {
                     The community is also working on various Layer 2 solutions and sidechains to enhance Bitcoins utility while maintaining its core principles of security and decentralization.
                </SoftTypography>
 
-               <SoftTypography variant="h5" color="warning" mb={2}>
+               <SoftTypography variant="h5" color="warning" mb={2} fontWeight="bold" sx={{ fontFamily: 'Comic Sans MS, cursive', textShadow: '1px 1px 2px rgba(0,0,0,0.1)' }} >
                   Team
                 </SoftTypography>
                 <SoftTypography variant="body1" color="text" mb={2}>
@@ -196,6 +196,16 @@ function BTCDetails() {
                     Today, Bitcoin is maintained by a global community of developers who contribute to its open-source code.
                     No single person or organization controls Bitcoin - its development and operation are truly decentralized, which is a key feature that makes it resistant to control or manipulation by any single entity.
                     The development community has grown significantly since Bitcoins inception, with numerous contributors working on various aspects of the protocol, from core development to Layer 2 solutions.
+                </SoftTypography>
+
+                <SoftTypography 
+                  variant="h5" 
+                  color="warning" 
+                  mb={2} 
+                  fontWeight="bold" 
+                  sx={{ fontFamily: 'Comic Sans MS, cursive', textShadow: '1px 1px 2px rgba(0,0,0,0.1)' }}
+                >
+                  😊 Welcome! Let’s make this fun and easy.
                 </SoftTypography>
 
 

@@ -44,6 +44,8 @@ import gradientLineChartData from "layouts/dashboard/data/gradientLineChartData"
 import BTC from "./components/BTC";
 import Ethereum from "./components/Ethereum";
 import USDT from "./components/USDT";
+import XPR from "./components/XRP";
+import XRP from "./components/XRP";
 
 function Dashboard() {
   const { size } = typography;
@@ -118,7 +120,7 @@ function Dashboard() {
               <USDT />
             </Grid>
             <Grid item xs={12} lg={6}>
-              <Ethereum />
+              <XRP />
             </Grid>
           </Grid>
         </SoftBox>
