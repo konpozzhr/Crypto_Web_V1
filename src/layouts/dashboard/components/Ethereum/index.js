@@ -26,6 +26,7 @@ import SoftTypography from "components/SoftTypography";
 import wavesWhite from "assets/images/shapes/waves-white.svg";
 import rockethWite from "assets/images/illustrations/rocket-white.png";
 import eth from "assets/images/illustrations/ETH.png"
+import { Link } from "react-router-dom";
 
 function Ethereum() {
   return (
@@ -47,33 +48,35 @@ function Ethereum() {
                   Ethereum is a decentralized open-source blockchain system that features its own cryptocurrency, Ether. ETH works as a platform for numerous other cryptocurrencies....
                 </SoftTypography>
               </SoftBox>
-              <SoftTypography
-                component="a"
-                href="#"
-                variant="button"
-                color="text"
-                fontWeight="medium"
-                sx={{
-                  mt: "auto",
-                  mr: "auto",
-                  display: "inline-flex",
-                  alignItems: "center",
-                  cursor: "pointer",
+               <Link to="/eth/details" style={{ textDecoration: "none" }}>
+                <SoftTypography
+                  component="a"
+                  href="#"
+                  variant="button"
+                  color="text"
+                  fontWeight="medium"
+                  sx={{
+                    mt: "auto",
+                    mr: "auto",
+                    display: "inline-flex",
+                    alignItems: "center",
+                    cursor: "pointer",
 
-                  "& .material-icons-round": {
-                    fontSize: "1.125rem",
-                    transform: `translate(2px, -0.5px)`,
-                    transition: "transform 0.2s cubic-bezier(0.34,1.61,0.7,1.3)",
-                  },
+                    "& .material-icons-round": {
+                      fontSize: "1.125rem",
+                      transform: `translate(2px, -0.5px)`,
+                      transition: "transform 0.2s cubic-bezier(0.34,1.61,0.7,1.3)",
+                    },
 
-                  "&:hover .material-icons-round, &:focus  .material-icons-round": {
-                    transform: `translate(6px, -0.5px)`,
-                  },
-                }}
-              >
-                Read More
-                <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
-              </SoftTypography>
+                    "&:hover .material-icons-round, &:focus  .material-icons-round": {
+                      transform: `translate(6px, -0.5px)`,
+                    },
+                  }}
+                >
+                  Read More
+                  <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
+                </SoftTypography>
+              </Link>
             </SoftBox>
           </Grid>
           <Grid item xs={12} lg={5} sx={{ position: "relative", ml: "auto" }}>

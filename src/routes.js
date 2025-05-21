@@ -55,6 +55,8 @@ import CustomerSupport from "examples/Icons/CustomerSupport";
 import CreditCard from "examples/Icons/CreditCard";
 import Cube from "examples/Icons/Cube";
 import BTCDetails from "layouts/dashboard/components/BTC/BTC_Details";
+import ETHDetails from "layouts/dashboard/components/Ethereum/Ethereum_Details";
+import USDTDetails from "layouts/dashboard/components/USDT/USDT_Details";
 
 const routes = [
   {
@@ -73,6 +75,24 @@ const routes = [
     route: "/btc/details",
     icon: <Cube size="12px" />, // Or use a more suitable icon
     component: <BTCDetails />,
+    noCollapse: true,
+  },
+  {
+    // type: "collapse",
+    // name: "BTC Details",
+    key: "eth-details",
+    route: "/eth/details",
+    icon: <Cube size="12px" />, // Or use a more suitable icon
+    component: <ETHDetails />,
+    noCollapse: true,
+  },
+  {
+    // type: "collapse",
+    // name: "BTC Details",
+    key: "usdt-details",
+    route: "/usdt/details",
+    icon: <Cube size="12px" />, // Or use a more suitable icon
+    component: <USDTDetails />,
     noCollapse: true,
   },
 

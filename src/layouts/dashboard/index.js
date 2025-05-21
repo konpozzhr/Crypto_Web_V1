@@ -43,6 +43,7 @@ import reportsBarChartData from "layouts/dashboard/data/reportsBarChartData";
 import gradientLineChartData from "layouts/dashboard/data/gradientLineChartData";
 import BTC from "./components/BTC";
 import Ethereum from "./components/Ethereum";
+import USDT from "./components/USDT";
 
 function Dashboard() {
   const { size } = typography;
@@ -105,6 +106,16 @@ function Dashboard() {
           <Grid container spacing={3}>
             <Grid item xs={12} lg={6}>
               <BTC />
+            </Grid>
+            <Grid item xs={12} lg={6}>
+              <Ethereum />
+            </Grid>
+          </Grid>
+        </SoftBox>
+        <SoftBox mb={3}>
+          <Grid container spacing={3}>
+            <Grid item xs={12} lg={6}>
+              <USDT />
             </Grid>
             <Grid item xs={12} lg={6}>
               <Ethereum />
