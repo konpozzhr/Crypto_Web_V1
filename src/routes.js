@@ -58,6 +58,8 @@ import BTCDetails from "layouts/dashboard/components/BTC/BTC_Details";
 import ETHDetails from "layouts/dashboard/components/Ethereum/Ethereum_Details";
 import USDTDetails from "layouts/dashboard/components/USDT/USDT_Details";
 import XRPDetails from "layouts/dashboard/components/XRP/XRP_Details";
+import BNBDetails from "layouts/dashboard/components/BNB/BNB_Details";
+import SOLDetails from "layouts/dashboard/components/SOL/SOL_Details";
 
 const routes = [
   {
@@ -103,6 +105,24 @@ const routes = [
     route: "/xrp/details",
     icon: <Cube size="12px" />, // Or use a more suitable icon
     component: <XRPDetails />,
+    noCollapse: true,
+  },
+  {
+    // type: "collapse",
+    // name: "BTC Details",
+    key: "bnb-details",
+    route: "/bnb/details",
+    icon: <Cube size="12px" />, // Or use a more suitable icon
+    component: <BNBDetails />,
+    noCollapse: true,
+  },
+  {
+    // type: "collapse",
+    // name: "BTC Details",
+    key: "sol-details",
+    route: "/sol/details",
+    icon: <Cube size="12px" />, // Or use a more suitable icon
+    component: <SOLDetails />,
     noCollapse: true,
   },
 

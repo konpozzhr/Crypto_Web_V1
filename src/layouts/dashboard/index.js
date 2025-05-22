@@ -46,6 +46,8 @@ import Ethereum from "./components/Ethereum";
 import USDT from "./components/USDT";
 import XPR from "./components/XRP";
 import XRP from "./components/XRP";
+import BNB from "./components/BNB";
+import SOL from "./components/SOL";
 
 function Dashboard() {
   const { size } = typography;
@@ -121,6 +123,16 @@ function Dashboard() {
             </Grid>
             <Grid item xs={12} lg={6}>
               <XRP />
+            </Grid>
+          </Grid>
+        </SoftBox>
+        <SoftBox mb={3}>
+          <Grid container spacing={3}>
+            <Grid item xs={12} lg={6}>
+              <BNB />
+            </Grid>
+            <Grid item xs={12} lg={6}>
+              <SOL />
             </Grid>
           </Grid>
         </SoftBox>
